@@ -1,0 +1,22 @@
+/* PublicUserPage.css */
+
+.public-user-page {
+  h2{
+    color: blue;
+  }
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #290729;
+    border-radius: 5px;
+    background-color: #bbaeae;
+    box-shadow:0 0 10px rgba(63, 0, 223, 0.953);
+  }
+  
+  .public-user-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Add more styling as needed */
+  

@@ -1,0 +1,110 @@
+/* Login.css */
+.containers{
+  background-color:#fffbfb;
+ }
+ 
+.login-container {
+ align-items: center;
+ margin: 0 auto;
+  width: 400px;
+  padding: 41px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #2c3e50;
+  box-shadow: 0 0 10px rgba(63, 0, 223, 0.871);
+  }
+  .login-header {
+    text-align: center;
+  }
+  .login-taskbar{
+    justify-content: space-between;
+    border-style: none;
+    align-items: center;
+    display: flex;
+    background-color: #ffffff;
+    width: fit-content;
+    border: 1px solid #910404;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(63, 0, 223, 0.871);
+    margin-left: 20%;
+    padding: 1.8px;
+  }
+
+  .login-quick-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .login-quick-links ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .login-quick-links ul li a {
+    color: #e74c3c;
+    text-decoration:solid;
+
+  }
+  
+  .login-quick-links ul li a:hover {
+    text-decoration:underline;
+  }
+
+  .login-container h2 {
+    margin-bottom: 20px;
+    color: #1a0c0c;
+  }
+  
+  .input-group {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f9f5f5;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #251a1a;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 0 px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+    color: #2c3e50;
+    border-style: solid;
+    border-color: #333;
+    border-radius: 25px;
+    cursor: pointer;
+   
+  }
+  button a{
+    text-decoration:solid;
+    color: #2c3e50;
+  }
+  
+  
+  .error-message {
+    color: #ff0000;
+    margin-top: 10px;
+  }
+
+  div p {
+    color: #f52d2df8;
+    a {
+      color:rgb(255, 255, 0);
+      text-decoration:solid;
+  
+    }
+  }
+  
+

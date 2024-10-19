@@ -1,0 +1,148 @@
+.job-main {
+   height: 750px;
+   width: 100%;
+  }
+  .job-container {
+   height: 450px;
+   width: 30%;
+   background-color: rgba(86, 86, 90, 0.138);
+   border-radius: 100px;
+   border: 3px solid rgb(1, 14, 13);
+   box-shadow: rgba(14, 31, 218, 0.818);
+  }
+  .request-main {
+   height: 750px;
+   width: 100%;
+   background-color: rgba(220, 163, 237, 0.463);
+  }
+  .request-container {
+   height: 450px;
+   width: 30%;
+   background-color: rgba(86, 86, 90, 0.138);
+   border-radius: 100px;
+   border: 3px solid rgb(1, 14, 13);
+   box-shadow: rgba(14, 31, 218, 0.818);
+  }
+  .p-main {
+   height: 750px;
+   width: 100%;
+   background-color: rgba(216, 155, 235, 0.463);
+  }
+  .p-container {
+   height: 700px;
+   width: 700px;
+   background-color: rgb(253, 253, 255);
+   border-radius: 25px;
+   border: 3px solid rgb(1, 14, 13);
+   box-shadow: rgba(14, 31, 218, 0.818);
+  }
+  .p-container h2{
+   color:white;
+  }
+  .p-container label{
+   color:white;
+  }
+  .u-main {
+   background-color: rgba(255, 255, 255, 0.703);
+   height: 700px;
+   width: auto;
+  }
+  .u-container  {
+   height: 750px;
+   width: 500px;
+   background-color: rgba(255, 255, 255, 0.138);
+   border-radius: 25px;
+   border: 3px solid rgb(1, 14, 13);
+   box-shadow: rgba(14, 31, 218, 0.818);
+  }
+  .d-main {
+   background-color: rgba(248, 248, 248, 0.463);
+   height: 750px;
+   width: 500px;
+  }
+  .d-container {
+   height: 300px;
+   width: 700px;
+   background-color: rgba(255, 255, 255, 0.138);
+   border-radius: 25px;
+   border: 3px solid rgb(1, 14, 13);
+   box-shadow: rgba(14, 31, 218, 0.818);
+  }
+  .task {
+   height: 800px;
+   width: 1465px;
+   display: flex;
+   align-items: normal;
+   justify-content: space-between;
+   border-style: solid;
+   color: #323030;
+   background-color: #ffffff78;
+  }
+  .task-links ul {
+   list-style-type: none;
+   padding: 20;
+   margin: 20;
+  }
+  .task-links ul li {
+   display: inline;
+   margin-right: 20px;
+  }
+  .task-links ul li a {
+   margin: 5px;
+   color: #2c3e50;
+   text-decoration: solid;
+
+  }
+  /* .task-links ul li a:hover {
+   text-decoration: underline;
+  } */
+  .custom-button {
+   background-color: white;
+   border-radius: 50px;
+   font-size: 25px;
+   color: #2c3e50; /* Set the font color here */
+   border: default; /* Optional: remove default border */
+   padding: 10px 20px; /* Optional: add padding */
+   cursor: pointer; /* Optional: change cursor on hover */
+   /* Optional: add transition effect */
+  }
+  .custom-button ul {
+    list-style-type: none;
+  }
+
+  .custom-button:hover {
+   background-color: #657e96; /* Optional: lighter background on hover */
+  }
+
+/* ApproveRequest.css */
+
+.approverequest-container {
+padding: 20px;
+background-size: cover;
+background-position: center;
+min-height: 100vh;
+}
+
+.approverequest-dashboard {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+
+.approverequest-links-container {
+text-align: center;
+}
+
+.approverequest-dropdown {
+font-weight: bolder;
+font-size: 25px;
+border-radius: 1px;
+border: #657e96;
+}
+.approverequest-dropdown:hover {
+  background-color: #657e96;
+  }
+  .approverequest-links-container ul {
+    list-style-type: none;
+  }

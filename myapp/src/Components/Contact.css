@@ -1,0 +1,54 @@
+/* ContactUs.css */
+
+.contact-container {
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .contact-details {
+    margin-bottom: 20px;
+  }
+  
+  .contact-details p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: black;
+  }
+  
+  .contact-form {
+    color: #ffffff;
+    background-color: #2c3e50;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form h2 {
+    margin-top: 0;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form button {
+    background-color:#ffffff ;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  

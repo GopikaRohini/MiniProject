@@ -1,0 +1,93 @@
+.announcements {
+    height: 200px;
+    justify-content: right;
+    align-items: right;
+    margin-left: auto;
+    background-color: #2c3e50;
+    color: #e74c3c;
+    padding: 20px;
+    border: 5px solid #fcfcfc;
+    /* height: 400px; */
+    }
+    .contact-info {
+    border: 5px solid #ffffff;
+    background-color: #2c3e50;
+    text-align: center;
+    color: #e74c3c;
+    padding: 5px;
+    width: 102%; /* Adjust width as needed */
+    height: 200px;
+    }
+    .contact-info p {
+    
+    color: #ffffff;
+    }
+    .system-status {
+    justify-content: right;
+    align-items: right;
+    margin-left: auto;
+    background-color: #2c3e50;
+    color: #e74c3c;
+    padding: 5px;
+    border: 5px solid #ffffff;
+    height: 200px;
+    }
+    .container {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    h1 {
+    color: rgb(244, 244, 251);
+    margin-bottom: 5px;
+    }
+    }
+    
+    .high-lights {
+    width: 55%;
+    height: auto;
+    background-color: rgba(41, 39, 42, 0.316);
+    border-style: outset;
+    scroll-margin-bottom: 55px;
+    }
+    .high-lights h3 {
+    color: rgb(165, 42, 42);
+    padding: 19px;
+    background-color: white;
+    border: 1px solid #ffffff;
+    }
+    .high-lights li {
+    color: rgb(218, 219, 228);
+    }
+    .part {
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 10px;
+    padding: 20px;
+    
+    text-align: center;
+    }
+    .part:hover {
+    background-color: #f7f7f7;
+    transform: scale(1.05);
+    transition: transform 0.3s linear, background-color 0.3s linear;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    }
+    .part:last-of-type {
+    margin-bottom: 140px; /* Add extra space before the footer */
+    }
+    
+    .homecontainer h2 {
+    text-align: left;
+    font-size: 24px;
+    color: #e74c3c;
+    margin-bottom: 15px;
+    }
+    .homecontainer p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.5;
+    
+    color: #2c3e50;
+    }
